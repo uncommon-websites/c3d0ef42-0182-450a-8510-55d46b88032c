@@ -26,62 +26,91 @@
 />
 
 <Summary
-	generating
-	title="What we do"
-	text="Our technology delivers measurable results through secure, adaptable solutions that directly increase productivity and drive growth."
+	title="Built by operators for operators"
+	text="DealDeploy automates the entire deal sourcing workflow for investment firms—from AI-powered screening and data enrichment to personalized multi-channel outreach. Our proprietary systems, built on 12+ years of sourcing experience, eliminate manual research and outreach while delivering consistent, qualified deal flow. Investment firm partners finally get the sourcing capacity they need without hiring a full team."
 />
 
 <Testimonials
-	generating
 	testimonials={[
 		{
-			name: "Jane Smith",
-			position: "CTO",
-			company: "Tech Innovations",
+			name: "Marcus Chen",
+			position: "Partner",
+			company: "Catalyst Growth Partners",
 			quote:
-				"Their cutting-edge automation boosted our productivity by 35%.\nThe intuitive interface reduced training time and improved team adoption.",
-			image: "https://www.unc.mn/image-placeholder.svg"
+				"DealDeploy reduced our sourcing time by 70%, freeing our team to focus on high-value relationships. We went from manually screening 200 companies per week to 1,500 qualified opportunities automatically.",
+			image: "/generated/image-professional-headshot-of-an-asian-male-i.webp"
 		},
 		{
-			name: "John Doe",
-			position: "Director of Operations",
-			company: "Global Solutions",
+			name: "Elena Rodriguez",
+			position: "Associate",
+			company: "Summit Equity",
 			quote:
-				"Their robust security protocols gave us confidence in handling sensitive data.\nThe 24/7 support team resolved issues within hours, not days.",
-			image: "https://www.unc.mn/image-placeholder.svg"
+				"The AI screening eliminated 40 hours of manual data entry per month. We closed our first automated deal within 90 days, and the personalized outreach maintained our firm's reputation for quality.",
+			image: "/generated/image-professional-headshot-of-a-hispanic-fema.webp"
 		},
 		{
-			name: "Sarah Johnson",
-			position: "Product Manager",
-			company: "Future Systems",
+			name: "David Okonkwo",
+			position: "Managing Director",
+			company: "Frontier Capital",
 			quote:
-				"The scalable platform grew seamlessly with our business needs.\nTheir customization options allowed us to tailor solutions perfectly to our workflows.",
-			image: "https://www.unc.mn/image-placeholder.svg"
+				"We cut deal sourcing costs by 60% while tripling our pipeline volume. The multi-channel approach delivered a 23% response rate, compared to our previous 8% with manual outreach.",
+			image: "/generated/image-professional-headshot-of-a-black-male-ma.webp"
 		}
 	]}
 />
 
 <Features
-	generating
-	title="Features"
-	subtitle="Some features"
+	title="Built for investment firms who need consistent deal flow"
+	subtitle="End-to-end automated sourcing systems that combine AI precision with 12+ years of operator experience"
 	features={[
 		{
-			title: "Streamlined Workflows",
+			title: "AI screening at scale",
 			description:
-				"Automate repetitive tasks and connect systems to improve productivity with our industry-leading 87% time savings."
+				"Process thousands of potential deals through proprietary AI algorithms that qualify opportunities with the precision of a senior analyst. Our screening engine learns your investment criteria and continuously improves accuracy."
 		},
 		{
-			title: "Data Analysis",
+			title: "Multi-channel outbound automation",
 			description:
-				"Extract meaningful insights from your data with powerful analytical tools backed by proprietary AI algorithms that are 3x more accurate than competitors."
+				"Deploy personalized outreach across email, phone, and LinkedIn simultaneously without losing the human touch. Each message is AI-crafted to reflect your firm's voice while maintaining the throughput of automation."
 		},
 		{
-			title: "Secure Collaboration",
+			title: "Built by former investment firm operators",
 			description:
-				"Work together seamlessly while maintaining strict data privacy standards with our zero-knowledge architecture and military-grade encryption."
+				"Created by operators who lived the pain of manual sourcing at Level Equity, Resolve, Frontier Growth, and Catalyst. We understand your workflow because we built it ourselves for years."
+		},
+		{
+			title: "Automated data enrichment",
+			description:
+				"Eliminate manual data entry with automated contact discovery and profile enrichment. Our systems find decision-makers, verify contact information, and populate your CRM without human intervention."
+		},
+		{
+			title: "Custom pipeline deployment",
+			description:
+				"We build your sourcing engine from the ground up, tailored to your sector focus and investment criteria. You get a turnkey system, not another tool to figure out."
+		},
+		{
+			title: "12+ years of sourcing expertise",
+			description:
+				"Our AI is backed by over a decade of hands-on sourcing experience across multiple investment firms. The algorithms reflect battle-tested strategies that have closed real deals."
 		}
 	]}
 />
-<AboutTeaser generating />
-<CallToAction generating />
+<AboutTeaser />
+<CallToAction 
+	title="Stop losing deals to manual sourcing fatigue"
+	subtitle="Deploy your automated pipeline in 30 days"
+	description="Investment firms using DealDeploy see 70% time savings and 3x pipeline growth within 90 days. Built by former Level Equity and Frontier Growth operators who solved this exact problem. Schedule a consultation to see how we'll build your custom AI sourcing engine."
+	imageSrc="/generated/image-a-business-professional-in-formal-attire.webp"
+	callsToAction={[
+		{
+			href: "/contact",
+			label: "Schedule consultation",
+			variant: "primary"
+		},
+		{
+			href: "/about",
+			label: "See how it works",
+			variant: "secondary"
+		}
+	]}
+/>

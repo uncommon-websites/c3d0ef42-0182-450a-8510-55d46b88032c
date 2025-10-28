@@ -21,9 +21,9 @@ A minimalist teaser for the about page.
 
 	// Data
 	const teamMember: TeamMember = {
-		name: "Alex Morgan",
-		role: "Founder & CEO",
-		image: "https://www.unc.mn/image-placeholder.svg"
+		name: "Mathew Iacone",
+		role: "Founder",
+		image: "/generated/image-confident-businessman-in-a-modern-office.webp"
 	};
 </script>
 
@@ -32,7 +32,7 @@ A minimalist teaser for the about page.
 		<div class="relative mx-auto grid max-w-2xl place-items-center gap-16">
 			<ScrollText
 				class="text-title1 text-center"
-				text={`"We're building the future of digital experiences, crafting innovative solutions that transform how people interact with technology in their everyday lives"`}
+				text={`"After 12 years at Level Equity and Resolve, I watched talented partners waste hundreds of hours on manual sourcing—screening lists, enriching data, crafting outreach. We knew there had to be a better way. The automation we built for ourselves became the engine we now deploy for investment firms everywhere."`}
 			/>
 
 			<!-- Team Member & CTA Section -->
