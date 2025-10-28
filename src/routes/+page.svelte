@@ -10,12 +10,20 @@
 </script>
 
 <Hero
-	title="Elevate your business with thoughtful design"
-	subtitle="Solutions that enhance user experience, and improve visual communication."
-	imageSrc="https://www.unc.mn/image-placeholder.svg"
-	generating
+	title="Automate investment deal sourcing through AI screening and multi-channel outbound at scale"
+	subtitle="Built by former investment firm operators with 12+ years of sourcing experience. Deploy automated pipelines that deliver consistent deal flow without manual sourcing fatigue."
+	imageSrc="/generated/image-a-group-of-professional-business-partner.webp"
+	centered={false}
 />
-<LogoScroller label="" generating />
+<LogoScroller 
+	label="Trusted by leading investment firms"
+	logoUrls={[
+		'https://cdn.brandfetch.io/sequoiacap.com/w/400/h/400/logo',
+		'https://cdn.brandfetch.io/blackstone.com/w/400/h/400/logo',
+		'https://cdn.brandfetch.io/a16z.com/w/400/h/400/logo',
+		'https://cdn.brandfetch.io/kkr.com/w/400/h/400/logo'
+	]}
+/>
 
 <Summary
 	generating
